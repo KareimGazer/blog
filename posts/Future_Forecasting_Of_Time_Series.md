@@ -1,6 +1,9 @@
 ---
 footer: true
 lastUpdated: true
+prev:
+  text: 'The Kiss Principle'
+  link: './The_KISS_Principle'
 ---
 
 # Future Forecasting Of Time Series using LSTM: A Quick Guide For Business Leaders

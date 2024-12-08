@@ -33,12 +33,14 @@ export default defineConfig({
       text: 'Last Updated',
       formatOptions: {
         dateStyle: 'full',
-        timeStyle: 'medium'
       }
     },
     editLink: {
       pattern: 'https://github.com/KareimGazer/blog/edit/main/:path',
       text: 'Found a typo? edit this page on GitHub'
+    },
+    search: {
+      provider: 'local'
     },
     footer: {
       message: 'Released under the MIT License.',

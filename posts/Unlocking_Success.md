@@ -1,6 +1,9 @@
 ---
 footer: true
 lastUpdated: true
+next:
+  text: 'The Kiss Principle'
+  link: './The_KISS_Principle'
 ---
 
 # Unlocking Success: The Incredible Benefits of Starting Your Own Blog

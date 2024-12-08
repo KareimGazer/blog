@@ -1,6 +1,12 @@
 ---
 footer: true
 lastUpdated: true
+next:
+  text: 'Future Forecasting Of Time Series'
+  link: './Future_Forecasting_Of_Time_Series'
+prev:
+  text: 'Unlocking Success'
+  link: './Unlocking_Success.md'
 ---
 
 # The KISS Principle
