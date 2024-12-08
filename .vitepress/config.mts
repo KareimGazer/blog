@@ -2,13 +2,24 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'en-US',
   title: "Blog",
-  description: "I hope you enjoy what I find interesting enough to write.",
+  titleTemplate: false, // ":title"
+  description: "I hope you enjoy what I find interesting enough to write.", // This will render as a <meta> tag in the page HTML.
   base: '/blog/',
+  srcDir: 'posts',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+  ],
+  // Whether to get the last updated timestamp for each page using Git.
+  // The timestamp will be included in each page's page data, accessible via useData.
+  lastUpdated: true, 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/favicon.ico',
+    siteTitle: "Kareim's Blog",
     nav: [
-      { text: 'Home', link: 'https://kareimgazer.github.io/' },
+      { text: 'Home', link: 'https://kareimgazer.github.io/', target: '_self', noIcon: true },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/KareimGazer' },
@@ -17,6 +28,21 @@ export default defineConfig({
       { icon: 'x', link: 'https://twitter.com/KareimGazer' },
       { icon: 'medium', link: 'https://medium.com/@kareimtarek1972' },
       { icon: 'youtube', link: 'https://www.youtube.com/@KareimGazer' }
-    ]
+    ],
+    lastUpdated: {
+      text: 'Last Updated',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
+    editLink: {
+      pattern: 'https://github.com/KareimGazer/blog/edit/main/:path',
+      text: 'Found a typo? edit this page on GitHub'
+    },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024 Kareim Gazer'
+    }
   }
 })
