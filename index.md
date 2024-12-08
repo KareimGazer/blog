@@ -4,22 +4,13 @@ layout: home
 
 hero:
   name: "Blog"
-  text: "I hope you enjoy what I find interesting enough to write."
-  tagline: My great project tagline
+  tagline: I hope you enjoy what I find interesting enough to write.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: About Me
+      link: https://kareimgazer.github.io/#about
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: View On Medium
+      link: https://medium.com/@kareimtarek1972
 ---
 
