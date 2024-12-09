@@ -19,6 +19,20 @@ hero:
 footer: false # no footer to be displayed in the home page
 ---
 
-- [Future Forecasting Of Time Series](/Future_Forecasting_Of_Time_Series)
-- [The KISS Principle](/The_KISS_Principle)
-- [Unlocking Success](/Unlocking_Success)
+## [Future Forecasting Of Time Series](/Future_Forecasting_Of_Time_Series)
+*November 25, 2024*
+
+HorizontalPodAutoscalers (HPA) dynamically adjust the number of pods in your Kubernetes cluster based on CPU or custom metrics. Learn how to use HPA effectively.
+[Read More](#)
+
+## [The KISS Principle](/The_KISS_Principle)
+*November 25, 2024*
+
+HorizontalPodAutoscalers (HPA) dynamically adjust the number of pods in your Kubernetes cluster based on CPU or custom metrics. Learn how to use HPA effectively.
+[Read More](#)
+
+## [Unlocking Success](/Unlocking_Success)
+*November 25, 2024*
+
+HorizontalPodAutoscalers (HPA) dynamically adjust the number of pods in your Kubernetes cluster based on CPU or custom metrics. Learn how to use HPA effectively.
+[Read More](#)
