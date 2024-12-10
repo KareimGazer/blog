@@ -23,3 +23,7 @@ next:
 ---
 
 Blogging is a good way to learn in public. blogging shows your consistency and discipline. your writing style and YouTube videos add a new dimension to your character and who you are, with every piece you introduce you hone your communication skills.
+
+---
+
+fgbdfbdfb
