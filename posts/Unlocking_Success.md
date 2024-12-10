@@ -1,14 +1,24 @@
 ---
-footer: true
+title: Unlocking Success - The Incredible Benefits of Starting Your Own Blog
+subtitle: By learning in public you are constantly advocating for yourself and using your level of expertise as a tool to spread your word and make your name.
+date: 2024-08-05
+author: '@KareimGazer'
 lastUpdated: true
 next:
   text: 'The Kiss Principle'
   link: './The_KISS_Principle'
 ---
 
-# Unlocking Success: The Incredible Benefits of Starting Your Own Blog
+<script setup>
+  import { useData } from 'vitepress'
+  const { frontmatter } = useData()
+</script>
 
-By learning in public you are constantly advocating for yourself and using your level of expertise as a tool to spread your word and make your name.
+{{ frontmatter.date }} by [{{ frontmatter.author }}](https://x.com/KareimGazer)
+
+# {{ frontmatter.title }}
+
+> {{ frontmatter.subtitle }}
 
 ---
 

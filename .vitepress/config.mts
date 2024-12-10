@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { genFeed } from './genFeed'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,7 +8,7 @@ export default defineConfig({
   titleTemplate: false, // ":title"
   description: "I hope you enjoy what I find interesting enough to write.", // This will render as a <meta> tag in the page HTML.
   base: '/blog/',
-  srcDir: 'posts',
+  
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
@@ -42,5 +43,10 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
-  }
+  },
+  sitemap: {
+    hostname: 'https://kareimgazer.github.io/blog'
+  },
+  cleanUrls: true,
+  buildEnd: genFeed
 })
