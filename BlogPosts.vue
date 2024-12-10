@@ -18,6 +18,12 @@ h2 {
   border-top: 0;
   margin-top: 0;
   padding-top: 0;
+  font-size: 1.6rem;
+  background: rgb(1,100,244);
+  background: linear-gradient(90deg, rgba(1,100,244,1) 0%, rgba(9,129,238,1) 20%, rgba(6,163,244,1) 50%, rgba(0,212,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 }
 
 .date {
