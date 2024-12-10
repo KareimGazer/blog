@@ -8,6 +8,8 @@ import { nextTick, provide } from 'vue'
 const { isDark } = useData()
 const { Layout } = DefaultTheme
 
+import ArticleHeader from './ArticleHeader.vue';
+
 const enableTransitions = () =>
     'startViewTransition' in document &&
     window.matchMedia('(prefers-reduced-motion: no-preference)').matches
@@ -43,7 +45,11 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 </script>
 
 <template>
-    <Layout />
+      <Layout>
+    <template #doc-before>
+      <ArticleHeader />
+    </template>
+  </Layout>
 </template>
 
 <style>

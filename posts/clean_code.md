@@ -12,20 +12,11 @@ prev:
   link: './The_KISS_Principle'
 ---
 
-<script setup>
-  import { useData } from 'vitepress'
-  const { frontmatter } = useData()
-</script>
-
-{{ frontmatter.date }} by [{{ frontmatter.author }}](https://x.com/KareimGazer)
-
-# {{ frontmatter.title }}
-
-> {{ frontmatter.subtitle }}
+It’s not enough for the code to work so it can be called clean. It needs to be easy to work with (debug and maintain). Following the upcoming principles can help your code be easier to understand, explain, change, extend, debug, and be more focused.
 
 ---
 
-It’s not enough for the code to work so it can be called clean. It needs to be easy to work with (debug and maintain). Following the upcoming principles can help your code be easier to understand, explain, change, extend, debug, and be more focused.
+
 
 ### Meaningful names
 

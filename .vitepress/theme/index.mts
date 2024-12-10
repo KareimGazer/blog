@@ -7,5 +7,5 @@ export default {
     extends: DefaultTheme,
     // override the Layout with a wrapper component that
     // injects the slots
-    Layout: Layout
+    Layout: Layout,
 }

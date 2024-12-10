@@ -9,21 +9,6 @@ next:
   link: './The_KISS_Principle'
 ---
 
-<script setup>
-  import { useData } from 'vitepress'
-  const { frontmatter } = useData()
-</script>
-
-{{ frontmatter.date }} by [{{ frontmatter.author }}](https://x.com/KareimGazer)
-
-# {{ frontmatter.title }}
-
-> {{ frontmatter.subtitle }}
-
----
-
 Blogging is a good way to learn in public. blogging shows your consistency and discipline. your writing style and YouTube videos add a new dimension to your character and who you are, with every piece you introduce you hone your communication skills.
 
 ---
-
-fgbdfbdfb

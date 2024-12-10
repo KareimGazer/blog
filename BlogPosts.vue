@@ -4,7 +4,6 @@ import { data as posts } from './.vitepress/theme/posts.data'
 
 <template>
     <div class="post" v-for="{ title, url, date, excerpt } of posts">
-      {{ console.log(url) }}
       <div class="date">{{ date.string }}</div>
       <h2><a :href="url">{{ title }}</a></h2>
       <div v-if="excerpt" v-html="excerpt"></div>
