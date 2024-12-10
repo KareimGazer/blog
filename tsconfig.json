@@ -2,7 +2,7 @@
   "include": [
     "./**/*.ts",
     "./**/*.vue",
-    "./**/*.md",
+    "./**/*.md", ".vitepress/theme/BlogPosts.vue",
   ],
   "vueCompilerOptions": {
     "vitePressExtensions": [".md"],

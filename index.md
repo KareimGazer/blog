@@ -18,7 +18,7 @@ hero:
 ---
 
 <script setup lang="ts">
-import BlogPosts from './BlogPosts.vue'
+import BlogPosts from './.vitepress/theme/BlogPosts.vue'
 </script>
 
 <BlogPosts />

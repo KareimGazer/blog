@@ -20,9 +20,9 @@ import { formatDate } from './utils';
     }
     h1 {
         border-top: 0;
-        margin-top: 0;
+        margin-top: 0.4rem;
         padding-top: 0;
-        font-size: 2rem;
+        font-size: 2.2rem;
         line-height: 2.8rem;
         font-weight: bold;
         background: rgb(1,100,244);

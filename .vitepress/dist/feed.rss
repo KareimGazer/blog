@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Kareim Tarek</title>
+        <link>https://kareimgazer.github.io/blog/</link>
+        <description>The official blog for Kareim Tarek</description>
+        <lastBuildDate>Tue, 10 Dec 2024 04:42:05 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <copyright>Copyright (c) 2024-present, @KareimGazer (Kareim Tarek)</copyright>
+        <item>
+            <title><![CDATA[Future Forecasting Of Time Series using LSTM - A Quick Guide For Business Leaders]]></title>
+            <link>https://kareimgazer.github.io/blog//posts/Future_Forecasting_Of_Time_Series</link>
+            <guid>https://kareimgazer.github.io/blog//posts/Future_Forecasting_Of_Time_Series</guid>
+            <pubDate>Sun, 06 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[<p>This post explains LSTM on a high level — just what you need to know so you can deal with them. If we want even in-depth material please check the references section where you can find the original material. You can view this post as a TLDR reiteration of the resources.</p>
+]]></description>
+            <content:encoded><![CDATA[<p>This post explains LSTM on a high level — just what you need to know so you can deal with them. If we want even in-depth material please check the references section where you can find the original material. You can view this post as a TLDR reiteration of the resources.</p>
+<hr>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Unlocking Success - The Incredible Benefits of Starting Your Own Blog]]></title>
+            <link>https://kareimgazer.github.io/blog//posts/Unlocking_Success</link>
+            <guid>https://kareimgazer.github.io/blog//posts/Unlocking_Success</guid>
+            <pubDate>Mon, 05 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Blogging is a good way to learn in public. blogging shows your consistency and discipline. your writing style and YouTube videos add a new dimension to your character and who you are, with every piece you introduce you hone your communication skills.</p>
+]]></description>
+            <content:encoded><![CDATA[<p>Blogging is a good way to learn in public. blogging shows your consistency and discipline. your writing style and YouTube videos add a new dimension to your character and who you are, with every piece you introduce you hone your communication skills.</p>
+<hr>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Clean Code In a Nutshell]]></title>
+            <link>https://kareimgazer.github.io/blog//posts/clean_code</link>
+            <guid>https://kareimgazer.github.io/blog//posts/clean_code</guid>
+            <pubDate>Mon, 05 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[<p>It’s not enough for the code to work so it can be called clean. It needs to be easy to work with (debug and maintain). Following the upcoming principles can help your code be easier to understand, explain, change, extend, debug, and be more focused.</p>
+]]></description>
+            <content:encoded><![CDATA[<p>It’s not enough for the code to work so it can be called clean. It needs to be easy to work with (debug and maintain). Following the upcoming principles can help your code be easier to understand, explain, change, extend, debug, and be more focused.</p>
+<hr>
+<h3 id="meaningful-names" tabindex="-1">Meaningful names <a class="header-anchor" href="#meaningful-names" aria-label="Permalink to &quot;Meaningful names&quot;"></a></h3>
+<p>label your symbols clearly in a pronounceable, searchable manner. that avoids mental mappings, buns, and cleverness. pick one word per concept and make names short.</p>
+<h3 id="elegant-functions" tabindex="-1">Elegant Functions <a class="header-anchor" href="#elegant-functions" aria-label="Permalink to &quot;Elegant Functions&quot;"></a></h3>
+<p>write small well-defined functions that do one thing only without side effects (pure functions — that do not change global variables or print to the console). this keeps your code DRY, structured, and focused.</p>
+<h3 id="correct-comments" tabindex="-1">Correct Comments <a class="header-anchor" href="#correct-comments" aria-label="Permalink to &quot;Correct Comments&quot;"></a></h3>
+<p>Avoid redundant, misleading, mandated comments. instead, use informative and clarification comments. comments should be minimal and describe why you are using this approach or the end goal of your block of code. your code should be self-describing and show the intent of what’s doing, so don’t comment on every line of code describing its functionality — library documentation is made for that.</p>
+<h3 id="standardize-your-formatting" tabindex="-1">Standardize Your Formatting <a class="header-anchor" href="#standardize-your-formatting" aria-label="Permalink to &quot;Standardize Your Formatting&quot;"></a></h3>
+<p>Format your coding correctly according to a standard agreed upon. This makes your code easy to navigate and familiar to developers who use the same formatting standard.</p>
+<h3 id="refined-classes" tabindex="-1">Refined Classes <a class="header-anchor" href="#refined-classes" aria-label="Permalink to &quot;Refined Classes&quot;"></a></h3>
+<p>keep them small and cohesive (doing one function and all its parts are related to it). Define your abstraction well. focus on responsibilities and isolation.</p>
+<h3 id="error-handling" tabindex="-1">Error handling <a class="header-anchor" href="#error-handling" aria-label="Permalink to &quot;Error handling&quot;"></a></h3>
+<p>Define a normal flow and handle all errors and exceptions by using try, catch, and finally language constructs, unchecked exceptions, and provide context when throwing your exceptions.</p>
+<h3 id="automated-testing" tabindex="-1">Automated Testing <a class="header-anchor" href="#automated-testing" aria-label="Permalink to &quot;Automated Testing&quot;"></a></h3>
+<p>Test your code at least with unit tests. Also, use integration components, and end-to-end tests. Use all the safeguards you can.</p>
+<hr>
+<p>clean code is meant to be beautiful, elegant, optimal, maintainable, concise, and ready for new features. All this makes the code pleasant to work with.</p>
+<p>writing clean code is an art in itself. It’s like drawing a painting and making those subtle decisions that are hard to define still everyone can judge the painting and feel its elegance although they might know nothing about painting. Same with clean code it needs practice until you master these subtle decisions that produce results seen by everyone.</p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The KISS Principle]]></title>
+            <link>https://kareimgazer.github.io/blog//posts/The_KISS_Principle</link>
+            <guid>https://kareimgazer.github.io/blog//posts/The_KISS_Principle</guid>
+            <pubDate>Fri, 26 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[<p>This principle was drawn from aircraft engineering by Kelly Johnson who stated that all systems work better if they are kept simple.</p>
+]]></description>
+            <content:encoded><![CDATA[<p>This principle was drawn from aircraft engineering by Kelly Johnson who stated that all systems work better if they are kept simple.</p>
+<hr>
+<p>Unix follows this philosophy by making each program do one thing well, and do a new job to build a fresh new program rather than complicating old programs by adding new features.</p>
+<p>You can see this in UNIX with all the built-in utilities and tools like cat, and grep which can be combined with pipe to compose and construct new functionalities</p>
+<p>Some UNIX design rules by Eric S. Raymond in his book “The Art of UNIX Programming” make this principle clearer.</p>
+<ul>
+<li>build modular programs</li>
+<li>write readable, simple, small, transparent, robust programs</li>
+<li>use composition</li>
+<li>separate mechanisms from policies</li>
+<li>make data complicated when required not the program</li>
+<li>build on the user’s expected knowledge</li>
+<li>avoid unnecessary output</li>
+<li>write programs which fail in a way that is easy to diagnose</li>
+<li>value programmer time over machine time</li>
+<li>write abstract programs that generate code instead of writing code by hand</li>
+<li>prototype software before polishing it</li>
+<li>write flexible and open programs</li>
+<li>make the programs and protocols extensible</li>
+</ul>
+<p>Start small and think about the layers of your project—work from general abstract concepts down to a lower level of detail. Divide complex functionality into simple functions with well-defined names. Keep doing this until all is clear and clean.</p>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>
