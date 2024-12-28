@@ -28,7 +28,7 @@ export default defineConfig({
       { icon: 'bluesky', link: 'https://bsky.app/profile/kareimgazer.bsky.social' },
       { icon: 'x', link: 'https://twitter.com/KareimGazer' },
       { icon: 'medium', link: 'https://medium.com/@kareimtarek1972' },
-      { icon: 'youtube', link: 'https://www.youtube.com/@KareimGazer' }
+      { icon: 'youtube', link: 'https://www.youtube.com/@KareemKreates' }
     ],
     lastUpdated: {
       text: 'Last Updated',

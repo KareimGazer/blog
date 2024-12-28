@@ -11,8 +11,7 @@ const { Layout } = DefaultTheme
 import ArticleHeader from './ArticleHeader.vue';
 
 const enableTransitions = () =>
-    'startViewTransition' in document &&
-    window.matchMedia('(prefers-reduced-motion: no-preference)').matches
+    'startViewTransition' in document
 
 provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     if (!enableTransitions()) {
@@ -36,9 +35,9 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     document.documentElement.animate(
         { clipPath: isDark.value ? clipPath.reverse() : clipPath },
         {
-        duration: 300,
-        easing: 'ease-in',
-        pseudoElement: `::view-transition-${isDark.value ? 'old' : 'new'}(root)`
+            duration: 300,
+            easing: 'ease-in',
+            pseudoElement: `::view-transition-${isDark.value ? 'old' : 'new'}(root)`
         }
     )
 })
