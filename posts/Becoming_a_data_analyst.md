@@ -1,6 +1,6 @@
 ---
 title: Becoming A Data Analyst
-subtitle: An Introduction & Career Outlook
+subtitle: An Introduction & Career Outlook - Know Your Path
 date: 2025-01-07
 author: '@KareimGazer'
 lastUpdated: true
@@ -242,3 +242,38 @@ Data mining essentially helps separate the noise from the real information and h
 **Standard deviation** tells you how tightly your data is clustered around the mean. 
 
 **Skewness** is the measure of whether the distribution of values is symmetrical around a central value or skewed left or right. Skewed data can affect which types of analyses are valid to perform.
+
+## Career Advice
+
+### What Employers look for in a Data Analyst
+
+- Analysts with integrity: who prefer getting the right answer than meeting the deadline. remember conclusions drive actions and these actions need to be correct because actions have consequences.
+- Clear communication: If you do the most brilliant analysis in the world, but you can't communicate it to external stakeholders, then it's really not worth anything
+- Fluency with numbers, understand complex analysis
+- Trouble-shooters , Problem-solvers, Think outside the box 
+- Ability to understand AB tests
+- Strong Programming skills including Python, R, SQL, and pick up technical skills quickly
+- growth mindset and wilingness to learn
+- Ability to work with data in different formats, Being dynamic and adaptable
+- Detail-oriented
+- Over-achievers
+- what kind of data will solve the given problem
+
+## Generative AI
+
+generative models generate entirely new data points, opening a realm of possibilities for data analytics.
+
+### Generative AI Apps for Data Analytics
+
+- **generate synthetic data sets** for testing and development solving the problem of data availability
+- enhance data visualizations by transforming data from one form to another like text to images
+- fill in missing data points.
+- automate and enhance data cleaning, normalization, transforming processes, and streamlining the path from raw data to actionable insights.
+- When it comes to querying databases. It can assist in formulating complex queries, optimizing database interactions, and adapting to evolving data structures.
+- empowers Q&A models, enabling users to interact with data naturally, ask questions in plain language, and receive meaningful insights in return.
+- simplifies and accelerates dashboard creation, offering dynamic layouts, insightful widgets, and personalized user experiences for more effective data communication.
+- enhances storytelling in data analytics. It can generate narrative elements, highlight key insights, and provide a cohesive structure transforming raw data into compelling narratives.
+
+- automating exploratory data analysis
+
+
