@@ -245,6 +245,41 @@ Data mining essentially helps separate the noise from the real information and h
 
 ## Career Advice
 
+### Responsibilities of a Data Analyst
+
+- Acquiring data from data sources
+- Creating queries to extract required data from databases
+- Filtering, cleaning, standardizing, and reorganizing data in preparation for data analysis
+- Using statistical tools to interpret data sets
+- Using statistical techniques to identify patterns and correlations in data
+- Analyzing patterns in complex data sets and interpreting trends
+- Preparing reports and charts that effectively communicate trends and patterns
+- Creating appropriate documentation to define and demonstrate the steps of the data analysis process.
+
+### skills that are valuable for a Data Analyst
+
+- Expertise in using spreadsheets such as Microsoft Excel or Google Sheets
+- Proficiency in statistical analysis and visualization tools and software such as Microsoft Power BI, SAS, and Tableau
+- Proficiency in at least one of the programming languages such as R, Python, and in some cases C++, Java, and MATLAB
+- Good knowledge of SQL, and ability to work with data in relational and NoSQL databases
+- The ability to access and extract data from data repositories such as data warehouses, data lakes, and data pipelines
+- Familiarity with Big Data processing tools such as Hadoop, Hive, and Spark.
+
+- Proficiency in Statistics to help you analyze your data, validate your analysis, and identify fallacies and logical errors
+- Analytical skills that help you research and interpret data, theorize, and make forecasts.
+- Problem-solving skills, because ultimately, the end-goal of all data analysis is to solve problems.
+- Probing skills that are essential for the discovery process, that is, for understanding a problem from the perspective of varied stakeholders and users—because the data analysis process really begins with a clear articulation of the problem statement and desired outcome.
+- Data Visualization skills that help you decide on the techniques and tools that present your findings effectively based on your audience, type of data, context, and end-goal of your analysis.
+- Project Management skills to manage the process, people, dependencies, and timelines of the initiative.
+
+- ability to work collaboratively with business and cross-functional teams
+- communicate effectively to report and present your findings
+- tell a compelling and convincing story
+- gather support and buy-in for your work.
+- Above all, being curious, is at the heart of data analysis.
+
+You will also hear data analysis practitioners talk about intuition as a must-have quality. It’s essential to note that intuition, is the ability to have a sense of the future based on pattern recognition and past experiences.
+
 ### What Employers look for in a Data Analyst
 
 - Analysts with integrity: who prefer getting the right answer than meeting the deadline. remember conclusions drive actions and these actions need to be correct because actions have consequences.
