@@ -24,8 +24,7 @@ import { data as posts } from './posts.data'
   font-size: 1.8rem;
   line-height: 2rem;
   padding-bottom: 0.2rem;
-  background: rgb(1,100,244);
-  background: linear-gradient(90deg, rgba(1,100,244,1) 0%, rgba(9,129,238,1) 20%, rgba(6,163,244,1) 50%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, #0ad1c7  0%, #3374e4 20%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
