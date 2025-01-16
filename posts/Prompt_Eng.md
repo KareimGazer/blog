@@ -94,7 +94,9 @@ Developing templates is one of the most effective strategies available for promp
 
 - maybe LLM / Foundation models are limited by input/prompts as text only may not suffice to describe the desired output. for example it's hard to describe a 3D object using text but adding equations and numbers helps. this opens the realm of custom AI for every software. for example AI that helps producing game assests.
 
-
+Use:
+- Let's think in steps
+- format the answer as a list
 
 2 principles:
 
