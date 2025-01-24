@@ -1,5 +1,8 @@
 import { defineConfig } from 'vitepress'
 import { genFeed } from './genFeed'
+import { loadEnv } from 'vitepress'
+
+const env = loadEnv('', process.cwd())
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -41,7 +44,12 @@ export default defineConfig({
       text: 'Found a typo? edit this page on GitHub'
     },
     search: {
-      provider: 'local'
+      provider: 'algolia',
+      options: {
+        appId: env.VITE_ALGOLIA_APP_ID,
+        apiKey: env.VITE_ALGOLIA_SEARCH_API_KEY,
+        indexName: env.VITE_ALGOLIA_INDEX_NAME
+      }
     }
   },
   sitemap: {

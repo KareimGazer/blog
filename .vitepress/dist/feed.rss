@@ -4,11 +4,563 @@
         <title>Kareim Tarek</title>
         <link>https://kareimgazer.github.io/blog/</link>
         <description>The official blog for Kareim Tarek</description>
-        <lastBuildDate>Wed, 11 Dec 2024 11:46:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jan 2025 18:37:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright (c) 2024-present, @KareimGazer (Kareim Tarek)</copyright>
+        <item>
+            <title><![CDATA[Databases]]></title>
+            <link>https://kareimgazer.github.io/blog//posts/databases_intro_soft</link>
+            <guid>https://kareimgazer.github.io/blog//posts/databases_intro_soft</guid>
+            <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[<blockquote>
+<p>What are databases, SQL, DBMS, RDBMS? let's findout!</p>
+</blockquote>
+]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p>What are databases, SQL, DBMS, RDBMS? let's findout!</p>
+</blockquote>
+<hr>
+<h2 id="dbs" tabindex="-1">DBs <a class="header-anchor" href="#dbs" aria-label="Permalink to &quot;DBs&quot;"></a></h2>
+<p>Databases (DBs) are just the data stored on the hard disk but in an efficient way using complex data structures and algorithms to store the data in the smallest amount and get the data in the fastest way possible.</p>
+<h2 id="dbms" tabindex="-1">DBMS <a class="header-anchor" href="#dbms" aria-label="Permalink to &quot;DBMS&quot;"></a></h2>
+<p>As with the Linux shell which is the software interface to the operating system. the database management system (DBMS) is the software interface to the database. it gives us a shell that we can write commands into but unlike the Linux shell in which we type 'Bash' scripts into we type SQL instead; to tell the database which data do we want exactly.</p>
+<h2 id="sql" tabindex="-1">SQL <a class="header-anchor" href="#sql" aria-label="Permalink to &quot;SQL&quot;"></a></h2>
+<p>SQL stands for Structured Query Language is a standardized programming language used to manage and manipulate relational databases. It is the primary language used for querying, inserting, updating, and deleting data in relational databases, as well as for creating and modifying the database structure itself.</p>
+<p>Here are the key components of SQL:</p>
+<ul>
+<li>
+<p><strong>Data Query Language (DQL):</strong> Used to query data from the database.
+The most common command is SELECT.</p>
+</li>
+<li>
+<p><strong>Data Manipulation Language (DML):</strong> Used to insert, update, and delete data.</p>
+</li>
+<li>
+<p><strong>Data Definition Language (DDL):</strong> Used to define or alter the structure of the database, such as creating, altering, or dropping tables.</p>
+</li>
+<li>
+<p><strong>Data Control Language (DCL):</strong> Used to control access to the data, like granting and revoking permissions.</p>
+</li>
+<li>
+<p><strong>Transaction Control Language (TCL):</strong> Used to manage transactions in the database, ensuring data integrity.</p>
+</li>
+</ul>
+<h2 id="rdbms" tabindex="-1">RDBMS <a class="header-anchor" href="#rdbms" aria-label="Permalink to &quot;RDBMS&quot;"></a></h2>
+<p>RDBMS which stands for Relational Database Management System is some kind of database that has tables (called relations) with each entry has an ID (something exactly like the national ID if you wish used to uniquely identify that entry) called the <em>Primary key</em> to uniquely identify that entry (piece of data). but this entry may also have a foreign key which is just another ID of another entry that lives in another table so we can associate entries together and build relations between them. Hence, the name <em>relational</em>.</p>
+<h2 id="normalization" tabindex="-1">Normalization <a class="header-anchor" href="#normalization" aria-label="Permalink to &quot;Normalization&quot;"></a></h2>
+<p>In RDBMS there is a technique called <em>Normalization</em> which is used to eleminate redundancy between tables in the database so we can store as little data as needed to save space and increase performance.</p>
+<hr>
+<p>These are the basics that you need to know! 😉</p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Prompt Engineering]]></title>
+            <link>https://kareimgazer.github.io/blog//posts/Prompt_Eng</link>
+            <guid>https://kareimgazer.github.io/blog//posts/Prompt_Eng</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[<blockquote>
+<p><strong>Prompt engineering</strong> is the newly emerging field of methodically crafting the input for a generative AI model to give users an output that best meets their needs. In order to generate the best output from AI, it helps to understand the opportunities and limitations of these models. This knowledge will help you phrase your prompt in the way that best allows the model to meet your needs.</p>
+</blockquote>
+]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p><strong>Prompt engineering</strong> is the newly emerging field of methodically crafting the input for a generative AI model to give users an output that best meets their needs. In order to generate the best output from AI, it helps to understand the opportunities and limitations of these models. This knowledge will help you phrase your prompt in the way that best allows the model to meet your needs.</p>
+</blockquote>
+<hr>
+<p>As we know ... we will start with</p>
+<h2 id="things-to-keep-in-mind" tabindex="-1">Things to keep in mind <a class="header-anchor" href="#things-to-keep-in-mind" aria-label="Permalink to &quot;Things to keep in mind&quot;"></a></h2>
+<p>as you develop your prompts:</p>
+<h3 id="even-very-minor-changes" tabindex="-1">Even very minor changes <a class="header-anchor" href="#even-very-minor-changes" aria-label="Permalink to &quot;Even very minor changes&quot;"></a></h3>
+<p>in the way a user phrases a prompt can lead to significant changes in the types of output an AI model generates.</p>
+<h3 id="remember-that-ai-models-are-only-trained-to-predict-the-next-word-or-token" tabindex="-1">Remember that AI models are only trained to predict the next word or “token.” <a class="header-anchor" href="#remember-that-ai-models-are-only-trained-to-predict-the-next-word-or-token" aria-label="Permalink to &quot;Remember that AI models are only trained to predict the next word or “token.”&quot;"></a></h3>
+<p>Essentially, these models are text completers. The more accurate the input you provide, the more accurate and helpful you can expect the output to be.</p>
+<h3 id="the-ai-model-s-response-is-stochastic" tabindex="-1">The AI model’s response is stochastic <a class="header-anchor" href="#the-ai-model-s-response-is-stochastic" aria-label="Permalink to &quot;The AI model’s response is stochastic&quot;"></a></h3>
+<p>which means randomly determined. Because the model is pulling from large amounts of data you will get a different output even when you enter the exact same prompt. the more detailed and longer your prompt is the more unique and determined the response might be so for example using the prompt below on both Grok and Chat-GPT resulted in a very similar results:</p>
+<blockquote>
+<p><strong>Prompt</strong>: act as a senior software engineer working in the electronic design automation industry. write me a linkedIn message requesting from my past senior manager and director of engineering to subscribe to my youtube channel that will features topics about how can normal people and young aspiring student utilize the full power of the current AI tools in their life especially software engineering.
+make it short, casual, friendly, and professional. and use &quot;silly as it might seem ... but&quot;</p>
+</blockquote>
+<blockquote>
+<p><strong>GPT 4o</strong>: Hi [Name], Silly as it might seem, but I’ve started a YouTube channel to share how everyday folks and aspiring students can tap into the full potential of today’s AI tools—especially in software engineering! It would mean the world if you could check it out and maybe subscribe. Your support (and occasional expert feedback) would be hugely motivating. 😊 Here’s the link: [Insert Link] Thanks so much in advance! Best regards [Your Name]</p>
+</blockquote>
+<blockquote>
+<p><strong>Grok2</strong>: Hey [Senior Manager's Name], [Director's Name], Silly as it might seem ... but I've started a YouTube channel focused on how everyday people and young aspiring students can harness the power of AI tools, especially in software engineering. I'd really appreciate it if you could subscribe and maybe share your thoughts on the content. It would mean a lot to have support from industry veterans like yourselves. Here's the link: [Insert YouTube Channel Link] Thanks for considering, and looking forward to your feedback! Best regards,</p>
+</blockquote>
+<p><strong>Did you notice?</strong> Thet are almost exactly the same although they are trained on huge and largely different data</p>
+<h3 id="be-on-the-lookout-for-ai-hallucinations" tabindex="-1">Be on the lookout for AI hallucinations <a class="header-anchor" href="#be-on-the-lookout-for-ai-hallucinations" aria-label="Permalink to &quot;Be on the lookout for AI hallucinations&quot;"></a></h3>
+<p>the phenomenon of an AI model generating content that “feels” like a legitimate output, but is based on unreliable data. Again, because the model is pulling from an extremely high volume of data, not all of that data may be factually correct. A well-engineered prompt can decrease the risk of generating an AI hallucination.
+hallucinations can happen when the model is not trained on enough data, on noisey or dirty data, not given enought context or constraints. and here comes the value of prompt engineering. Hallucinations make the output text difficult to understand and make the model more likely to generate incorrect or misleading information</p>
+<h3 id="domain-expertise" tabindex="-1">Domain Expertise <a class="header-anchor" href="#domain-expertise" aria-label="Permalink to &quot;Domain Expertise&quot;"></a></h3>
+<p>Sometimes a high-level of domain expertise may be required in order to develop a well-engineered prompt. Take, for example, the case of a medical doctor using an AI algorithm to suggest treatment options based on a patient’s medical history. The person engineering the prompt would not only need to know the best vocabulary to use to generate the desired output; so the model uses the parts of the data related to medical academia and generate more accurate results instead of relying on data from reddit for example. they would also need to have an understanding of the treatment options to be able to evaluate and validate the output.</p>
+<h2 id="components-of-prompt-engineering" tabindex="-1">Components of Prompt Engineering <a class="header-anchor" href="#components-of-prompt-engineering" aria-label="Permalink to &quot;Components of Prompt Engineering&quot;"></a></h2>
+<p>When developing a prompt, you must include either instructions or a question.</p>
+<p>you will also likely want to include some aspect of input data and/or examples in your prompt to guide the algorithm toward an output that will be the most useful to you. Users can provide input data to give the model additional information about the type of output they desire.</p>
+<p>Users can add anything from simple audience demographic information (age, level of education, physical location) to .csv files with many data points, and anything in between that will help to guide the model toward the desired output.</p>
+<p>It can also be helpful to specify the tone that you would like the algorithm to use in its response.
+In this case, instead of asking the model to tell us a joke about penguins, we specified the tone—dad joke.</p>
+<h2 id="techniques-to-improve-outputs" tabindex="-1">Techniques to Improve Outputs <a class="header-anchor" href="#techniques-to-improve-outputs" aria-label="Permalink to &quot;Techniques to Improve Outputs&quot;"></a></h2>
+<h3 id="asking-the-model-to-play-a-role" tabindex="-1">Asking the Model to Play a Role <a class="header-anchor" href="#asking-the-model-to-play-a-role" aria-label="Permalink to &quot;Asking the Model to Play a Role&quot;"></a></h3>
+<blockquote>
+<p><strong>You</strong>: You are a helpful assistant that translates English to Spanish. Translate the following passage: All the world's a stage, and all the men and women merely players.</p>
+</blockquote>
+<blockquote>
+<p><strong>GPT</strong>: Todo el mundo es un escenario y todos los hombres y mujeres son simplemente actores.</p>
+</blockquote>
+<h3 id="question-and-answer" tabindex="-1">Question and Answer <a class="header-anchor" href="#question-and-answer" aria-label="Permalink to &quot;Question and Answer&quot;"></a></h3>
+<p>a series of follow up questions to steer the model toward the desired output.</p>
+<p>some transformer models respond well to forceful language, including all capitalization and exclamation points.</p>
+<blockquote>
+<p><strong>You</strong>: Write a sentence with 10 words in it</p>
+</blockquote>
+<blockquote>
+<p><strong>GPT</strong>: The quick brown fox jumps over the lazy dog.</p>
+</blockquote>
+<blockquote>
+<p><strong>You</strong>: THAT'S ONLY 9 WORDS!</p>
+</blockquote>
+<blockquote>
+<p><strong>GPT</strong>: Oh, I apologize for that. Here's another sentence with 10 words: She woke up early to watch the sunrise over mountains.</p>
+</blockquote>
+<h3 id="templates" tabindex="-1">Templates <a class="header-anchor" href="#templates" aria-label="Permalink to &quot;Templates&quot;"></a></h3>
+<p>Developing templates is one of the most effective strategies available for prompting thorough, accurate responses from a transformer model. Templates can use any combination of the engineering techniques we’ve covered so far, but the benefit is that the same well-engineered prompt can be re-used with different data points, increasing the model’s efficiency.</p>
+<h2 id="notes-and-future-direction" tabindex="-1">Notes and Future Direction <a class="header-anchor" href="#notes-and-future-direction" aria-label="Permalink to &quot;Notes and Future Direction&quot;"></a></h2>
+<ul>
+<li>maybe LLM / Foundation models are limited by input/prompts as text only may not suffice to describe the desired output. for example it's hard to describe a 3D object using text but adding equations and numbers helps. this opens the realm of custom AI for every software. for example AI that helps producing game assests.</li>
+</ul>
+<p>Use:</p>
+<ul>
+<li>Let's think in steps</li>
+<li>format the answer as a list</li>
+</ul>
+<p>2 principles:</p>
+<ul>
+<li>write clear instructions</li>
+<li>give the model time to think</li>
+</ul>
+<blockquote>
+<p><strong>You</strong>:
+<strong>GPT</strong>:</p>
+</blockquote>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Data Analyst - Data]]></title>
+            <link>https://kareimgazer.github.io/blog//posts/Data_Analyst_Data</link>
+            <guid>https://kareimgazer.github.io/blog//posts/Data_Analyst_Data</guid>
+            <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[<blockquote>
+<p>&quot;Businesses today recognize the untapped value in data and data analytics as a crucial factor for business competitiveness. To drive their data and analytics initiatives, companies are hiring and upskilling people. They're expanding their teams and creating centers of excellence to set up a multipronged data and analytics practice in their organizations.&quot; - <strong>The Power Of Data To Transform Your Business, a Forrester report</strong></p>
+</blockquote>
+]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p>&quot;Businesses today recognize the untapped value in data and data analytics as a crucial factor for business competitiveness. To drive their data and analytics initiatives, companies are hiring and upskilling people. They're expanding their teams and creating centers of excellence to set up a multipronged data and analytics practice in their organizations.&quot; - <strong>The Power Of Data To Transform Your Business, a Forrester report</strong></p>
+</blockquote>
+<hr>
+<h2 id="planning" tabindex="-1">Planning <a class="header-anchor" href="#planning" aria-label="Permalink to &quot;Planning&quot;"></a></h2>
+<p>Before collecting data you should have:</p>
+<ol>
+<li>An understanding of the problem</li>
+<li><strong>the desired outcome</strong>: you know “Where you are” and “Where you want to be.“</li>
+<li>A well-defined metric: you know “What will be measured,” and “How it will be measured.”</li>
+</ol>
+<p>The next step is for you is to identify the data you need for your use case by making decisions about:</p>
+<ol>
+<li>the specific information you need</li>
+<li>the possible sources for this data</li>
+</ol>
+<p>Your goals determine the answers to these questions.</p>
+<p>Let’s take the example of a product company that wants to create marketing campaigns targeted towards the age group that buys their products the most. Their goal is to design reach-outs that appeal most to this segment and encourages them to further influence their friends and peers into buying these products.</p>
+<p>Based on this use case, some of the obvious information that you will identify includes the customer profile, purchase history, location, age, education, profession, income, and marital status, for example. To ensure you gain even greater insights into this segment, you may also decide to collect the customer complaint data for this segment to understand the kind of issues they face because this could discourage them from recommending your products.</p>
+<p>To know how satisfied they were with the resolution of their issues, you collect the ratings from the customer service surveys. Taking this a step forward, you may want to understand how these customers talk about your products on social media and how many of their connections engage with them in these discussions, for example, the likes, shares, and comments their posts receive.</p>
+<p>The next step in the process is to define a plan for collecting data. Some of the data you need may be required on an ongoing basis and some over a defined period of time. For collecting website visitor data, for example, you may need to have the numbers refreshed in real-time. But if you’re tracking data for a specific event, you have a definite beginning and end date for collecting the data. In this step, you can also define how much data would be sufficient for you to reach a credible analysis. Is the volume defined by the segment, for example, all customers within the age range of 21 to 30 years; or a dataset of a hundred thousand customers within the age range of 21 to 30. You can also use this step to define the dependencies, risks, mitigation plan, and several other such factors that are relevant to your initiative. The purpose of the plan should be to establish the clarity you need for execution.</p>
+<h2 id="data-collection-methods" tabindex="-1">data collection methods <a class="header-anchor" href="#data-collection-methods" aria-label="Permalink to &quot;data collection methods&quot;"></a></h2>
+<p>The third step in the process is for you to determine your data collection methods. In this step, you will identify the methods for collecting the data you need. You will define how you will collect the data from the data sources you have identified, such as internal systems, social media sites, or third-party data providers. Your methods will depend on the type of data, the timeframe over which you need the data, and the volume of data.</p>
+<h3 id="data-types" tabindex="-1">Data Types <a class="header-anchor" href="#data-types" aria-label="Permalink to &quot;Data Types&quot;"></a></h3>
+<p>data can be internal or external to the organization.
+primary, secondary or third party sources of data.</p>
+<ul>
+<li>
+<p><strong>Primary data</strong>: information obtained directly from internal sources such as data from the organization database, Customer relationship management (CRM), HR or workflow applications. It could also include data you gather directly through surveys, interviews, discussions, observations and focus groups.</p>
+</li>
+<li>
+<p><strong>Secondary data</strong>: also reffered to as public data is information retrieved from sources, such as external databases, research articles, publications, training material and Internet searches, or financial records. We can use web scraping tool to get these data assuming that's available to the public with no restrictions.
+This could also include data collected through externally conducted surveys, interviews, discussions, observations and focus groups.</p>
+</li>
+<li>
+<p><strong>3rd party data</strong>: is data you purchase from aggregators who collect data from various sources and combine it into comprehensive datasets purely for the purpose of selling the data that you can access by subcribing to their sevices and access the data using APIs.</p>
+</li>
+</ul>
+<p>so in short primary data is data that's already ready and clean to pull from the database. secondary data are data that still needs to be pulled from the internet through webscraping then cleaned and wrangled. and finally 3rd party data is simply clean data that you clean.</p>
+<h3 id="data-sources" tabindex="-1">Data sources <a class="header-anchor" href="#data-sources" aria-label="Permalink to &quot;Data sources&quot;"></a></h3>
+<p>let's look at different sources to gather data:</p>
+<p><strong>Databases</strong> can be a source of primary, secondary and 3rd party data. Most organizations have internal applications for managing their processes, workflows and customers.</p>
+<p><strong>External databases</strong> are available on a subscription basis or for purchase with significant number of businesses have or are currently moving to the cloud, which is increasingly becoming a source for accessing real time information and on demand insights.</p>
+<p>Supplementing your primary data with secondary and 3rd party data sources can help you explore problems and solutions in new and meaningful ways.</p>
+<p>The Web is a source of publicly available data that is available to companies and individuals for free or commercial use. These could include textbooks, government records, papers, and articles that are for public consumption, social media sites, and interactive platforms such as Facebook, Twitter, Google, YouTube and Instagram are increasingly being used to source user data and opinions. Also, Sensor data produced by wearable devices, smart buildings, smart cities, smart phones, medical devices, even household appliances is a widely used source of data.</p>
+<p><strong>Web scraping</strong>, also known as screen scraping or web harvesting, is used for downloading specific data from web pages based on defined parameters. Among other things, web scraping is used to extract data such as text, contact information, images, videos, podcasts, and product items from a web property.</p>
+<p><strong>RSS feeds</strong> are another source typically used for capturing updated data from online forums and news sites where data is refreshed on an ongoing basis.</p>
+<p><strong>Data streams</strong> are a popular source for aggregating constant streams of data flowing from sources such as instruments, IoT devices and applications, and GPS data from cars. Data streams and feeds are also used for extracting data from social media sites and interactive platforms. This data is generally timestamped and also geo-tagged for geographical identification.</p>
+<p>data streams used in:</p>
+<ul>
+<li>stock and market tickers for financial trading</li>
+<li>retail transaction streams for predicting demand and supply chain management</li>
+<li>surveillance and video feeds for threat detection</li>
+<li>social media feeds for sentiment analysis</li>
+<li>sensor data feeds for monitoring industrial or farming machinery</li>
+<li>web click feeds for monitoring web performance and improving design</li>
+<li>real-time flight events for rebooking and rescheduling</li>
+</ul>
+<p>Some popular applications used to process data streams are Apache Kafka, Apache Spark Streaming, and Apache Storm.</p>
+<p>RSS (or Really Simple Syndication) feeds, are another popular data source. These are typically used for capturing updated data from online forums and news sites where data is refreshed on an ongoing basis. Using a feed reader, which is an interface that converts RSS text files into a stream of updated data, updates are streamed to user devices.</p>
+<p><strong>Data Exchange platforms</strong> allow the exchange of data between data providers and data consumers. Data Exchanges have a set of well-defined exchange standards, protocols, and formats relevant for exchanging data. These platforms not only facilitate the exchange of data, they also ensure that security and governance are maintained. They provide data licensing workflows, de-identification and protection of personal information, legal frameworks, and a quarantined analytics environment. Examples of popular data exchange platforms include AWS Data Exchange, Crunchbase, Lotame, and Snowflake.</p>
+<p><strong>Census</strong> data is also a commonly used source for gathering household data, such as wealth and income or population data, for example.</p>
+<p><strong>Interviews</strong> are source for gathering qualitative data, such as the participants opinions and experiences. For example, an interview conducted to understand the day-to-day challenges faced by a customer service executive. Interviews could be telephonic over the Web or face to face observation studies include monitoring participants in a specific environment or while performing a particular task.For example, observing users navigate an E Commerce site to assess the.</p>
+<p>Based on how well-defined the structure of the data is, data can be categorized into 3 types:</p>
+<h3 id="structured-data" tabindex="-1">Structured data <a class="header-anchor" href="#structured-data" aria-label="Permalink to &quot;Structured data&quot;"></a></h3>
+<p>data that follows a rigid format and can be organized neatly into rows and columns. such data from spreadsheets, online forms, sensors, network and web logs are stored in relational databases using a well-defined schema (tables) but structured data can also be stored in non-relationsal databases (NoSQL).</p>
+<h3 id="semi-structured" tabindex="-1">Semi-structured <a class="header-anchor" href="#semi-structured" aria-label="Permalink to &quot;Semi-structured&quot;"></a></h3>
+<p>data that has some structure properties but not a rigid schema, such as data from emails, XML, zipped files, binary executables, and TCP/IP protocols. emails for example has headers or titles but the body is unstructured text. Semi-structured can be stored in NoSQL clusters. XML and JSON data formats are commonly used for storing and exchanging semi-structured data. JSON is the preferred data type for web services.</p>
+<h3 id="unstructured-data" tabindex="-1">Unstructured data <a class="header-anchor" href="#unstructured-data" aria-label="Permalink to &quot;Unstructured data&quot;"></a></h3>
+<p>data that does not have a structure and cannot be organized into a schema, such as data from web pages, social media feeds, images, videos, documents, media logs, and surveys. NoSQL databases and Data Lakes provide a good option to store and manipulate large volumes of unstructured data. Data lakes can accommodate all data types and schema.</p>
+<h2 id="implementing-your-data-collection-strategy" tabindex="-1">implementing your data collection strategy <a class="header-anchor" href="#implementing-your-data-collection-strategy" aria-label="Permalink to &quot;implementing your data collection strategy&quot;"></a></h2>
+<p>Once your plan and data collection methods are finalized, you can implement your data collection strategy and start collecting data. You will be making updates to your plan as you go along because conditions evolve as you implement the plan on the ground.</p>
+<p>Working with data from disparate sources without considering how it measures against the quality metric can lead to failure. In order to be reliable, data needs to be free of errors, accurate, complete, relevant, and accessible.</p>
+<p>You need to define the quality traits, the metric, and the checkpoints in order to ensure that your analysis is going to be based on quality data.</p>
+<h3 id="data-governance-privacy" tabindex="-1">Data Governance &amp; Privacy <a class="header-anchor" href="#data-governance-privacy" aria-label="Permalink to &quot;Data Governance &amp; Privacy&quot;"></a></h3>
+<p>You also need to watch out for issues pertaining to data governance, such as, security, regulation, and compliances.</p>
+<p>Data Governance policies and procedures relate to the usability, integrity, and availability of data. Penalties for non-compliance can run into millions of dollars and can hurt the credibility of not just your findings, but also your organization.</p>
+<p>Another important consideration is data privacy. Data you collect needs to check the boxes for confidentiality, license for use, and compliance to mandated regulations. Checks, validations, and an auditable trail needs to be planned. Loss of trust in the data used for analysis can compromise the process, result in suspect findings, and invite penalties. Identifying the right data is a very important step of the data analysis process. Done right, it will ensure that you are able to look at a problem from multiple perspectives and your findings are credible and reliable.</p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Becoming A Data Analyst]]></title>
+            <link>https://kareimgazer.github.io/blog//posts/Becoming_a_data_analyst</link>
+            <guid>https://kareimgazer.github.io/blog//posts/Becoming_a_data_analyst</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[<blockquote>
+<p>&quot;Businesses today recognize the untapped value in data and data analytics as a crucial factor for business competitiveness. To drive their data and analytics initiatives, companies are hiring and upskilling people. They're expanding their teams and creating centers of excellence to set up a multipronged data and analytics practice in their organizations.&quot; - <strong>The Power Of Data To Transform Your Business, a Forrester report</strong></p>
+</blockquote>
+]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p>&quot;Businesses today recognize the untapped value in data and data analytics as a crucial factor for business competitiveness. To drive their data and analytics initiatives, companies are hiring and upskilling people. They're expanding their teams and creating centers of excellence to set up a multipronged data and analytics practice in their organizations.&quot; - <strong>The Power Of Data To Transform Your Business, a Forrester report</strong></p>
+</blockquote>
+<hr>
+<p>business leaders realized that data holds the key to competitive advantage and now organizations are using data to uncover opportunities and differentiate themselves from their competititors for example:</p>
+<ul>
+<li>Identifying patterns in financial data to detect fraud, predict sales, and gain market insights.</li>
+<li>Mining social media posts to discover what customers really like</li>
+<li>Analyzing customer behavior for personalizing offers (recommendation systems)</li>
+</ul>
+<p>Data Analytics is a higly sought after and well-paid profession. You can chooce between mastering data analytis as a career path (associate, senior, lead) or leveraging it as a stepping stone to branch out to other data professions such as:</p>
+<ul>
+<li>Data Science</li>
+<li>Data Engineering</li>
+<li>Business Analytics (BI)</li>
+<li>Business Intelligence Analytics (BA)</li>
+</ul>
+<p>which might be a better choice these days given that AI agents can now do most basic tasks done by data analysts. this does not mean a replacement. instead, new capabilities for the analysts means stronger competitions and the need for didication and skills enhancements</p>
+<blockquote>
+<p>&quot;The constant increase in data processing speeds and bandwidth, the nonstop invention of new tools for creating, sharing, and consuming data, and the steady addition of new data creators and consumers around the world, ensure that data growth continues unabated. Data begets more data in a constant virtuous cycle.&quot; - <strong>Forbes 2020 Report</strong></p>
+</blockquote>
+<h2 id="modern-data-ecosystem" tabindex="-1">Modern Data Ecosystem <a class="header-anchor" href="#modern-data-ecosystem" aria-label="Permalink to &quot;Modern Data Ecosystem&quot;"></a></h2>
+<h3 id="data-integrated-from-disparate-sources" tabindex="-1">Data integrated from disparate sources <a class="header-anchor" href="#data-integrated-from-disparate-sources" aria-label="Permalink to &quot;Data integrated from disparate sources&quot;"></a></h3>
+<p>Data is available in a variety of structured and unstructured datasets.
+residing in:</p>
+<ul>
+<li>text</li>
+<li>images</li>
+<li>videos</li>
+<li>click streams</li>
+<li>user conversations</li>
+<li>social media platforms</li>
+<li>real-time events that stream data like IOT devices sensors data, or users metrics from large streaming platforms like YouTube, and Twitch</li>
+<li>legacy databases in large enterprises</li>
+<li>data sourced from professional data providers and agencies like ready APIs meaning data that you can get on demand from trusted sources</li>
+</ul>
+<p>As you can see the possibilites are endless and The sources have never before been so diverse and dynamic but first let's differentiate between data (raw material), and information (insights). you can consider all of the above as raw data sources. but with the data only we can't arrive to conclusions. And here comes the <strong>Fundamentals of data analysis</strong>: data gathering, wrangling, mining, analysis and visualization that help us gain insights (information) from our data.</p>
+<p>Reliability, security, and integrity of the data being acquired are some of the challenges you work through at this stage. Once the raw data is in a common place, it needs to get organized, cleaned up, and optimized for access by end users. The data will also need to conform to compliances and standards enforced in the organization. For example, conforming to guidelines that regulate the storage and use of personal data, such as health, biometrics or household data in the case of IoT devices. Adhering to master data tables within the organization to ensure standardization of master data across all applications and systems of an organization is another example. The key challenges at this stage could involve data management and working with data repositories that provide high availability, flexibility, accessibility, and security.</p>
+<h3 id="needs-different-types-of-analysis-and-skills-to-generate-insights" tabindex="-1">Needs Different types of analysis and skills to generate insights <a class="header-anchor" href="#needs-different-types-of-analysis-and-skills-to-generate-insights" aria-label="Permalink to &quot;Needs Different types of analysis and skills to generate insights&quot;"></a></h3>
+<p>When you're working with so many different sources of data,
+the <strong>first step</strong> is to pull a copy of the data from the original sources into a data repository. you're only looking at acquiring the data you need.</p>
+<p>working with data formats, sources, and interfaces through which this data can be pulled in.</p>
+<h3 id="has-active-stakeholders-to-collaborate-and-act-on-insights-generated" tabindex="-1">Has Active stakeholders to collaborate and act on insights generated <a class="header-anchor" href="#has-active-stakeholders-to-collaborate-and-act-on-insights-generated" aria-label="Permalink to &quot;Has Active stakeholders to collaborate and act on insights generated&quot;"></a></h3>
+<ul>
+<li>applications</li>
+<li>programmers</li>
+<li>analysts</li>
+<li>data scientists</li>
+</ul>
+<p>all are pulling these data from the enterprise data repository (warehouse). The key challenge at this stage is to provide the appropriate interface for each stakeholder. For example, data analysts may need the raw data to work with. Business stakeholders may need reports and dashboards. Applications may need custom APIs to pull this data.</p>
+<h3 id="has-many-tools-applications-and-infrastructure" tabindex="-1">Has Many Tools, applications, and infrastructure <a class="header-anchor" href="#has-many-tools-applications-and-infrastructure" aria-label="Permalink to &quot;Has Many Tools, applications, and infrastructure&quot;"></a></h3>
+<p>to store, process, and disseminate data as required. Note the influence of the new technologies that are shaping today's data ecosystem, like cloud computing, machine learning, and big data. with cloud technologies, every company today has access to limitless storage, high-performance computing, open source technologies, machine learning, and the latest tools and libraries. Data scientists are creating predictive models by training machine learning algorithms on huge amount of data. Today, we're dealing with datasets that are so massive and so varied that traditional tools and analysis methods are no longer adequate, paving the way for new tools and techniques like data lakes and data warehouses.</p>
+<h2 id="career-paths" tabindex="-1">Career Paths <a class="header-anchor" href="#career-paths" aria-label="Permalink to &quot;Career Paths&quot;"></a></h2>
+<h3 id="data-engineers" tabindex="-1">Data engineers <a class="header-anchor" href="#data-engineers" aria-label="Permalink to &quot;Data engineers&quot;"></a></h3>
+<p>are people who develop and maintain data architectures and make data available for business analysts. Data engineers work  to extract, integrate, and organize data from different sources. Clean transform and prepare data design, store and manage data in data repositories (warehouses).</p>
+<p>They enable data to be accessible in formats and systems that the various business applications as well as stakeholders like data analysts and data scientists can use. A data engineer must have strong knowledge of programming, cloud, and in depth understanding of relational and non-relational databases.</p>
+<h3 id="data-analyst" tabindex="-1">Data analyst <a class="header-anchor" href="#data-analyst" aria-label="Permalink to &quot;Data analyst&quot;"></a></h3>
+<p>Translates data and numbers into plain language (insights), so organizations can make decisions. data analysts inspect and clean data to get insights, identify correlations, find patterns.
+They apply statistical methods to analyze and visualize data to interpret and present the findings.</p>
+<p>Analysts are the people who answer questions such as:</p>
+<ul>
+<li>Are the users search experiences generally good or bad with the search functionality on our site?</li>
+<li>What is the popular perception of people regarding our rebranding initiatives?</li>
+<li>is there a correlation between sales, and one product and another?</li>
+</ul>
+<p>Data analysts require good knowledge of spreadsheets, writing SQL queries, and using statistical tools to create charts and dashboards.</p>
+<p>Modern data analysts also need to have programming skills and strong analytical &amp; storytelling skills.</p>
+<h3 id="data-scientist" tabindex="-1">Data scientist <a class="header-anchor" href="#data-scientist" aria-label="Permalink to &quot;Data scientist&quot;"></a></h3>
+<p>Analyzes data for actionable insights and build machine learning or deep learning models that train on past data to create predictive models.</p>
+<p>Data scientists are people who answer questions such as, How many new social media followers am I likely to get next month, or what percentage of my customers am I likely to lose to competition in the next quarter, or is this financial transaction unusual for this customer?</p>
+<p>Data scientists need knowledge of mathematics, statistics, python, databases, building ML models, and domain knowledge.</p>
+<h3 id="business-analyst" tabindex="-1">Business analyst <a class="header-anchor" href="#business-analyst" aria-label="Permalink to &quot;Business analyst&quot;"></a></h3>
+<p>leverages the work of data analysts and data scientists to look at possible implications for their business and the actions they need to take or recommend.</p>
+<h3 id="bi-analyst" tabindex="-1">BI analyst <a class="header-anchor" href="#bi-analyst" aria-label="Permalink to &quot;BI analyst&quot;"></a></h3>
+<p>does the same except. Their focus is on the market forces and external influences that shape their business. They provide business intelligent solutions by organizing and monitoring data on different business functions and exploring that data to extract insights and actionables that improve business performance.</p>
+<p>To summarize, in simple terms:
+<strong>data engineer</strong> converts raw data into usable data.
+<strong>Data analyst</strong> uses this data to generate insights.
+<strong>Data scientist</strong> uses data analytics and data engineering to build machine learning models to predict the future using data from the past.
+<strong>business analyst</strong> and <strong>business intelligence analyst</strong> use these insights and predictions to drive decisions that benefit and grow their business.</p>
+<p>It's not uncommon for data professionals to start their career in one of these roles and transition to another by supplementing their skills.</p>
+<h2 id="so-what-is-data-analysis" tabindex="-1">So, What is Data Analysis? <a class="header-anchor" href="#so-what-is-data-analysis" aria-label="Permalink to &quot;So, What is Data Analysis?&quot;"></a></h2>
+<p>Data Analysis is about collecting information around you to take decision. just like getting the weather report (reporting results like a data analyst) and deciding (taking decision like a stakeholder) what to wear. But, it has a technical term now and is used everywhere. in fact, the weather data was collected and analized by data analysts to generate the weather reports that is given to the broadcasters (stakeholders &amp; you) so you can take your decision.</p>
+<p>Data Analysis is the process of gathering, cleaning, analyzing and mining (getting value) data, interpreting results (getting insights), and reporting the findings (making reports).</p>
+<p>With data analysis we find patterns within the data and correlations between different data points.</p>
+<p>It is through these patterns and correlations that insights are generated, and conclusions are drawn.</p>
+<p>Data analysis helps businesses understand their past performance and informs their decision-making persons (stakeholders) for future actions.</p>
+<p>Data analysis helps businesses validate a course of action before committing to it. Saving valuable time and resources and also ensuring greater success.</p>
+<p>There are four primary types of data analysis, each with a different goal and place in the data analysis process:</p>
+<ol>
+<li>
+<p><strong>Descriptive Analytics</strong> helps answer questions about what happened over a given period of time by summarizing past data and presenting the findings to stakeholders. It helps provide essential insights into past events. For example, tracking past performance based on the organization's key performance indicators or cash flow analysis.</p>
+</li>
+<li>
+<p><strong>Diagnostic analytics</strong> helps answer the question. Why did it happen? It takes the insights from descriptive analytics to dig deeper to find the cause of the outcome. For example, a sudden change in traffic to a website without an obvious cause or an increase in sales in a region where there has been no change in marketing.</p>
+</li>
+<li>
+<p><strong>Predictive analytics</strong> helps answer the question, What will happen next? Historical data and trends are used to predict future outcomes. Some of the areas in which businesses apply predictive analysis are risk assessment and sales forecasts. It's important to note that the purpose of predictive analytics is not what will happen in the future, but its objective is to forecast what might happen in the future. All predictions are probabilistic in nature.</p>
+</li>
+<li>
+<p><strong>Prescriptive Analytics</strong> helps answer the question, What should be done about it? By analyzing past decisions and events, the likelihood of different outcomes. It is estimated on the basis of which a course of action is decided. Self-driving cars are a good example of Prescriptive Analytics. They analyze the environment to make decisions regarding speed, changing lanes, which route to take, etc. Or airlines automatically adjusting ticket prices based on customer demand. Gas prices, the weather or traffic on connecting routes.</p>
+</li>
+</ol>
+<h2 id="the-process" tabindex="-1">The Process <a class="header-anchor" href="#the-process" aria-label="Permalink to &quot;The Process&quot;"></a></h2>
+<p>Now let's look at some of the key steps in any data analysis process:</p>
+<p><strong>Understanding the problem and desired result</strong>: Data analysis begins with understanding the problem that needs to be solved and the desired outcome that needs to be achieved. Where you are and where you want to be needs to be clearly defined before the analysis process can begin. Setting a clear metric. This stage of the process includes deciding what will be measured. For example, number of product X sold in a region and how it will be measured, for example. In a quarter or during a festival season, gathering data once you know what you're going to measure and how you're going to measure it, you identify the data you require, the data sources you need to pull this data from, and the best tools for the job.</p>
+<p><strong>Cleaning data</strong>: Having gathered the data, the next step is to fix quality issues in the data that could affect the accuracy of the analysis. This is a critical step because the accuracy of the analysis can only be ensured if the data is clean. You will clean the data for missing or incomplete values and outliers. For example, a customer demographics data in which the age field has a value of 150 is an outlier. You will also standardize the data coming in from multiple sources.</p>
+<p><strong>Analyzing and mining data</strong>: Once the data is clean, you will extract and analyze the data from different perspectives. You may need to manipulate your data in several different ways to understand the trends, identify correlations and find patterns and variations.</p>
+<p><strong>Interpreting results</strong>: After analyzing your data and possibly conducting further research, which can be an iterative loop, it's time to interpret your results. As you interpret your results, you need to evaluate if your analysis is defendable against objections, and if there are any limitations or circumstances under which your analysis may not hold true.</p>
+<p><strong>Presenting your findings</strong>: Ultimately, the goal of any analysis is to impact decision making. The ability to communicate and present your findings in clear and impactful ways is as important a part of the data analysis process as is the analysis itself. Reports, dashboards, charts, graphs, maps, case studies are just some of the ways in which you can present your data.</p>
+<p>So, in summary. There are four primary types of Data Analysis:</p>
+<ul>
+<li>
+<p><strong>Descriptive Analytics</strong>: that helps decode “What happened?”</p>
+</li>
+<li>
+<p><strong>Diagnostic Analytics</strong>: that helps us understand “Why it happened?”</p>
+</li>
+<li>
+<p><strong>Predictive Analytics</strong>: that analyzes historical data and trends to suggest “What will happen next?”</p>
+</li>
+<li>
+<p><strong>Prescriptive Analytics</strong>: that prescribes “What should be done next?”</p>
+</li>
+</ul>
+<p>The Data Analysis process involves:</p>
+<ul>
+<li>
+<p>Developing an understanding of the problem and the desired outcome.</p>
+</li>
+<li>
+<p>Setting a clear metric for evaluating outcomes.</p>
+</li>
+<li>
+<p>Gathering, cleaning, analyzing, and mining data to interpret results.</p>
+</li>
+<li>
+<p>Communicating the findings in ways that impact decision-making.</p>
+</li>
+</ul>
+<h2 id="analyzing-data" tabindex="-1">Analyzing Data <a class="header-anchor" href="#analyzing-data" aria-label="Permalink to &quot;Analyzing Data&quot;"></a></h2>
+<p>Whenever we collect data from a sample, there are two different types of statistics we can run. Descriptive statistics to summarize information about the sample; and Inferential statistics to make inferences or generalizations about the broader population of the sample.</p>
+<h3 id="descriptive-statistics" tabindex="-1">Descriptive Statistics <a class="header-anchor" href="#descriptive-statistics" aria-label="Permalink to &quot;Descriptive Statistics&quot;"></a></h3>
+<p>Enables you to present data in a meaningful way allowing simpler interpretation of the data. Data is described using summary charts, tables, and graphs without any attempts to draw conclusions about the population from which the sample is taken. The objective is to make it easier to understand and visualize raw data without making conclusions regarding any hypotheses that were made.</p>
+<p>For example, describing the English test scores in a specific class of 25 students. We record the test scores of all students, calculate the summary statistics, and produce a graph. Some of the common measures of Descriptive Statistical Analysis include Central Tendency, Dispersion, and Skewness:</p>
+<ul>
+<li>
+<p><strong>Central Tendency</strong> (locating the center of a data sample): Some of the common measures of central tendency include mean, median, and mode. looking at your dataset through these values can help you get a clearer understanding of your dataset.</p>
+</li>
+<li>
+<p><strong>Dispersion</strong> is the measure of variability in a dataset. Common measures of statistical dispersion are Variance, Standard Deviation, and Range.</p>
+</li>
+</ul>
+<h3 id="inferential-statistics" tabindex="-1">Inferential Statistics <a class="header-anchor" href="#inferential-statistics" aria-label="Permalink to &quot;Inferential Statistics&quot;"></a></h3>
+<p>Inferential statistics takes data from a sample to make inferences about the larger population from which the sample was drawn. Using methods of inferential statistics you can draw generalizations that apply the results of the sample to the population as a whole.</p>
+<p>Some common methodologies of Inferential Statistics include :</p>
+<ul>
+<li>
+<p><strong>Hypothesis Testing</strong> — For example, for studying the effectiveness of a vaccine by comparing outcomes in a control group, hypothesis tests can tell you whether the efficacy of a vaccine observed in a control group is likely to exist in the population as well.</p>
+</li>
+<li>
+<p><strong>Confidence Intervals</strong> incorporate the uncertainty and sample error to create a range of values the actual population value is like to fall within.</p>
+</li>
+<li>
+<p><strong>Regression Analysis</strong> incorporates hypothesis tests that help determine whether the relationships observed in the sample data actually exist in the population rather than just the sample.</p>
+</li>
+</ul>
+<p>Statistics form the core of data mining (see later) by: Providing measures and methodologies necessary for data mining; and Identifying patterns that help identify differences between random noise and significant findings.</p>
+<p>*Note: Machine Learning algorithms works by giving you this statistical model through iterating through the training set in which called statistical learning. By using this model you can generalize (predict) across new examples that represents new samples from the same population.</p>
+<h2 id="data-mining" tabindex="-1">Data Mining <a class="header-anchor" href="#data-mining" aria-label="Permalink to &quot;Data Mining&quot;"></a></h2>
+<p>The process of extracting knowledge from data. it has several techniques:</p>
+<ul>
+<li>
+<p><strong>Classification</strong> is a technique that classifies attributes into target categories, for example, classifying customers into low, medium, or high spenders based on how much they earn.</p>
+</li>
+<li>
+<p><strong>Clustering</strong> is similar to classification, but involves grouping data into clusters so they can be treated as groups. For example, clustering customers based on geographic.</p>
+</li>
+<li>
+<p><strong>anomaly or outlier detection</strong> is a technique that helps find patterns and data that are not normal or unexpected. For example, spikes in the usage of a credit card that can flag possible misuse.</p>
+</li>
+<li>
+<p><strong>Association rule mining</strong> is a technique that helps establish our relationship between two data events. For example, the purchase of a laptop being frequently accompanied by the purchase of a cooling pad.</p>
+</li>
+<li>
+<p><strong>Sequential patterns</strong> is the technique that traces a series of events that take place in a sequence. For example, tracing a customer shopping trail from the time they log into an online store to the time they log out.</p>
+</li>
+<li>
+<p><strong>Affinity grouping</strong> is a technique used to discover Co occurrence in relationships. This technique is widely used in on line stores for cross selling and up selling their products by recommending products to people based on the purchase history of other people who purchased the same item.</p>
+</li>
+<li>
+<p><strong>Decision trees</strong> help build classification models in the form of a tree structure with multiple branches, where each branch represents a probable occurrence. This technique helps to build a clear understanding of the relationship between input and output.</p>
+</li>
+<li>
+<p><strong>Regression</strong> is a technique that helps identify the nature of the relationship between two variables, which could be causal or correlational. For example, based on factors such as location and covered area, a regression model could be used to predict the value of a house.</p>
+</li>
+</ul>
+<p>Data mining essentially helps separate the noise from the real information and helps businesses focus their energies on only what is relevant.</p>
+<h2 id="glossary" tabindex="-1">Glossary <a class="header-anchor" href="#glossary" aria-label="Permalink to &quot;Glossary&quot;"></a></h2>
+<p><strong>Mode</strong> is the value that occurs most frequently in a set of observations. For example, if the most common score in this group of 25 students is 72%, then that is the mode for this dataset.</p>
+<p><strong>Dispersion</strong> is the measure of variability in a dataset. Common measures of statistical dispersion are Variance, Standard Deviation, and Range.</p>
+<p><strong>Variance</strong> defines how far away the data points fall from the center, that is, the distribution of values. When a distribution has lower variability, the values in a dataset are more consistent. However, when the variability is higher, the data points are more dissimilar, and extreme values become more likely. Understanding variability can help you grasp the likelihood of an event happening.</p>
+<p><strong>Standard deviation</strong> tells you how tightly your data is clustered around the mean.</p>
+<p><strong>Skewness</strong> is the measure of whether the distribution of values is symmetrical around a central value or skewed left or right. Skewed data can affect which types of analyses are valid to perform.</p>
+<h2 id="career-advice" tabindex="-1">Career Advice <a class="header-anchor" href="#career-advice" aria-label="Permalink to &quot;Career Advice&quot;"></a></h2>
+<h3 id="responsibilities-of-a-data-analyst" tabindex="-1">Responsibilities of a Data Analyst <a class="header-anchor" href="#responsibilities-of-a-data-analyst" aria-label="Permalink to &quot;Responsibilities of a Data Analyst&quot;"></a></h3>
+<ul>
+<li>Acquiring data from data sources</li>
+<li>Creating queries to extract required data from databases</li>
+<li>Filtering, cleaning, standardizing, and reorganizing data in preparation for data analysis</li>
+<li>Using statistical tools to interpret data sets</li>
+<li>Using statistical techniques to identify patterns and correlations in data</li>
+<li>Analyzing patterns in complex data sets and interpreting trends</li>
+<li>Preparing reports and charts that effectively communicate trends and patterns</li>
+<li>Creating appropriate documentation to define and demonstrate the steps of the data analysis process.</li>
+</ul>
+<h3 id="skills-that-are-valuable-for-a-data-analyst" tabindex="-1">skills that are valuable for a Data Analyst <a class="header-anchor" href="#skills-that-are-valuable-for-a-data-analyst" aria-label="Permalink to &quot;skills that are valuable for a Data Analyst&quot;"></a></h3>
+<ul>
+<li>
+<p>Expertise in using spreadsheets such as Microsoft Excel or Google Sheets</p>
+</li>
+<li>
+<p>Proficiency in statistical analysis and visualization tools and software such as Microsoft Power BI, SAS, and Tableau</p>
+</li>
+<li>
+<p>Proficiency in at least one of the programming languages such as R, Python, and in some cases C++, Java, and MATLAB</p>
+</li>
+<li>
+<p>Good knowledge of SQL, and ability to work with data in relational and NoSQL databases</p>
+</li>
+<li>
+<p>The ability to access and extract data from data repositories such as data warehouses, data lakes, and data pipelines</p>
+</li>
+<li>
+<p>Familiarity with Big Data processing tools such as Hadoop, Hive, and Spark.</p>
+</li>
+<li>
+<p>Proficiency in Statistics to help you analyze your data, validate your analysis, and identify fallacies and logical errors</p>
+</li>
+<li>
+<p>Analytical skills that help you research and interpret data, theorize, and make forecasts.</p>
+</li>
+<li>
+<p>Problem-solving skills, because ultimately, the end-goal of all data analysis is to solve problems.</p>
+</li>
+<li>
+<p>Probing skills that are essential for the discovery process, that is, for understanding a problem from the perspective of varied stakeholders and users—because the data analysis process really begins with a clear articulation of the problem statement and desired outcome.</p>
+</li>
+<li>
+<p>Data Visualization skills that help you decide on the techniques and tools that present your findings effectively based on your audience, type of data, context, and end-goal of your analysis.</p>
+</li>
+<li>
+<p>Project Management skills to manage the process, people, dependencies, and timelines of the initiative.</p>
+</li>
+<li>
+<p>ability to work collaboratively with business and cross-functional teams</p>
+</li>
+<li>
+<p>communicate effectively to report and present your findings</p>
+</li>
+<li>
+<p>tell a compelling and convincing story</p>
+</li>
+<li>
+<p>gather support and buy-in for your work.</p>
+</li>
+<li>
+<p>Above all, being curious, is at the heart of data analysis.</p>
+</li>
+</ul>
+<p>You will also hear data analysis practitioners talk about intuition as a must-have quality. It’s essential to note that intuition, is the ability to have a sense of the future based on pattern recognition and past experiences.</p>
+<h3 id="what-employers-look-for-in-a-data-analyst" tabindex="-1">What Employers look for in a Data Analyst <a class="header-anchor" href="#what-employers-look-for-in-a-data-analyst" aria-label="Permalink to &quot;What Employers look for in a Data Analyst&quot;"></a></h3>
+<ul>
+<li>Analysts with integrity: who prefer getting the right answer than meeting the deadline. remember conclusions drive actions and these actions need to be correct because actions have consequences.</li>
+<li>Clear communication: If you do the most brilliant analysis in the world, but you can't communicate it to external stakeholders, then it's really not worth anything</li>
+<li>Fluency with numbers, understand complex analysis</li>
+<li>Trouble-shooters , Problem-solvers, Think outside the box</li>
+<li>Ability to understand AB tests</li>
+<li>Strong Programming skills including Python, R, SQL, and pick up technical skills quickly</li>
+<li>growth mindset and wilingness to learn</li>
+<li>Ability to work with data in different formats, Being dynamic and adaptable</li>
+<li>Detail-oriented</li>
+<li>Over-achievers</li>
+<li>what kind of data will solve the given problem</li>
+</ul>
+<h2 id="generative-ai" tabindex="-1">Generative AI <a class="header-anchor" href="#generative-ai" aria-label="Permalink to &quot;Generative AI&quot;"></a></h2>
+<p>generative models generate entirely new data points, opening a realm of possibilities for data analytics.</p>
+<h3 id="generative-ai-apps-for-data-analytics" tabindex="-1">Generative AI Apps for Data Analytics <a class="header-anchor" href="#generative-ai-apps-for-data-analytics" aria-label="Permalink to &quot;Generative AI Apps for Data Analytics&quot;"></a></h3>
+<ul>
+<li>
+<p><strong>generate synthetic data sets</strong> for testing and development solving the problem of data availability</p>
+</li>
+<li>
+<p>enhance data visualizations by transforming data from one form to another like text to images</p>
+</li>
+<li>
+<p>fill in missing data points.</p>
+</li>
+<li>
+<p>automate and enhance data cleaning, normalization, transforming processes, and streamlining the path from raw data to actionable insights.</p>
+</li>
+<li>
+<p>When it comes to querying databases. It can assist in formulating complex queries, optimizing database interactions, and adapting to evolving data structures.</p>
+</li>
+<li>
+<p>empowers Q&amp;A models, enabling users to interact with data naturally, ask questions in plain language, and receive meaningful insights in return.</p>
+</li>
+<li>
+<p>simplifies and accelerates dashboard creation, offering dynamic layouts, insightful widgets, and personalized user experiences for more effective data communication.</p>
+</li>
+<li>
+<p>enhances storytelling in data analytics. It can generate narrative elements, highlight key insights, and provide a cohesive structure transforming raw data into compelling narratives.</p>
+</li>
+<li>
+<p>automating exploratory data analysis</p>
+</li>
+</ul>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Future Forecasting Of Time Series using LSTM - A Quick Guide For Business Leaders]]></title>
             <link>https://kareimgazer.github.io/blog//posts/Future_Forecasting_Of_Time_Series</link>
